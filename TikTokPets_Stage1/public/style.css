@@ -1,0 +1,124 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 15px;
+}
+
+#logo {
+  font-family: 'Boogaloo', cursive;
+  font-size: 48px;
+  margin: 15px;
+  margin-left: auto;
+  display: flex;
+  justify-contents: center;
+}
+
+.PinkButton {
+  padding: 10px;
+  max-height: 60px;
+  width: 170px;
+  border-radius: 15px;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  background-color: rgba(238, 29, 82, 0.9);
+}
+
+#myVideos {
+  margin-left: auto;
+  top: 10px;
+  right: 10px;
+}
+
+#continue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#InputPanel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 15px;
+  padding: 25px;
+  min-width: 400px;
+  max-width: 520px;
+  min-height: 400px;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom right, rgba(238, 29, 82, 0.9), rgb(105, 201, 208));
+}
+
+#InputPanel label {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  display: block;
+  min-width: 300px;
+  max-width: 350px;
+}
+
+#InputPanel input {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  min-width: 300px;
+  max-width: 350px;
+  height: 40px;
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: cyan;
+  margin-bottom: 15px;
+  padding: 8px;
+  padding-left: 15px;
+}
+
+#InputPanelTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+  align-items: center;
+}
+
+#Submit {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+/* TABLET MODE */
+@media (max-width: 900px min-width: 480px) {
+  #logo {
+    font-size: 48px;
+  }
+  #Submit {
+    font-size: 24px;
+  }
+}
+
+/* MOBILE MODE */
+@media (max-width: 32px) {
+  #logo {
+    font-size: 
+  }
+  .PinkButton {
+    font-size: 16px;
+  }
+  #Submit {
+    font-size: 20px;
+  }
+}

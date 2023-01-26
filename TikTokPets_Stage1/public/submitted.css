@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 15px;
+}
+
+#logo {
+  font-family: 'Boogaloo', cursive;
+  font-size: 48px;
+  margin: 15px;
+  display: flex;
+  justify-contents: center;
+}
+
+.PinkButton {
+  padding: 10px;
+  max-height: 60px;
+  width: 170px;
+  border-radius: 15px;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  background-color: rgba(238, 29, 82, 0.9);
+}
+
+#continue2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+#SubmitMessage {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  margin: 50px;
+  margin-top: 150px;
+}
+
+#pinkText {
+  font-family: 'Boogaloo', cursive;
+  color: rgba(238, 29, 82, 0.9);
+  display: inline;
+}
+
+.blackText {
+  font-family: 'Boogaloo', cursive;
+  color: black;
+  display: inline;
+}
+
+.inline {
+  display: block;
+}
